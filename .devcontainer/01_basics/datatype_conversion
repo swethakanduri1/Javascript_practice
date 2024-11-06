@@ -1,0 +1,56 @@
+let s1="33"
+let cast=Number(s1)
+console.log(typeof s1)
+console.log(typeof cast);
+console.log(cast);
+
+/*
+string
+number
+33
+
+
+33 => 33
+"33abc" => NAN
+true =>1
+
+*/
+
+let s2=0
+let castq=Boolean(s2)
+console.log(typeof s2)
+console.log(typeof castq);
+console.log(castq);
+/*
+0 => false,1=>true,
+"" => false
+"Swetha" => true
+*/
+
+let s3=undefined
+let ca=String(s3)
+console.log(typeof s3)
+console.log(typeof ca);
+console.log(ca);
+
+/*
+33 => "33",true =>true,
+"" => string
+"Swetha" => true
+undefined =>undefined
+*/
+
+let s4=NaN 
+let cas=Object(s4)
+console.log(typeof s4)
+console.log(typeof cas);
+console.log(cas);
+
+/*
+33 => [Number: 78],true =>[Boolean: true],
+"" => [String: '']
+"Swetha" => "Swetha" 
+undefined =>{}
+NaN => [Number: NaN]
+
+*/
