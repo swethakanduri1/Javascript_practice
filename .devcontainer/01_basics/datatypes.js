@@ -14,4 +14,5 @@ let gh=0;
  // bit int is used if number is too long and has a n at the end.The default datatype for numbers is doubleint.
 let gyu=88379720898239238293782467365874370n
 //return type of all non primitive datatypes like arrays,objects, is obj
+//primitive values are stored in stack and non primitive values are stored in heap memory
 
